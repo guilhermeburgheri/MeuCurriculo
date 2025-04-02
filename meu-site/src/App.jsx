@@ -23,9 +23,9 @@ const App = () => {
     ],
     educacao: [
       {
-        curso: "Bacharelado em Design de Games",
-        instituicao: "Universidade Anhembi Morumbi",
-        periodo: "2020 - 2023"
+        curso: "Bacharelado em Ciência da Computação",
+        instituicao: "ENIAC",
+        periodo: "2025 - 2028"
       },
       {
         curso: "Pós-Graduação em Desenvolvimento Full Stack",
@@ -33,12 +33,21 @@ const App = () => {
         periodo: "2024 - 2025"
       },
       {
-        curso: "Bacharelado em Ciência da Computação",
-        instituicao: "ENIAC",
-        periodo: "2025 - 2028"
+        curso: "Bacharelado em Design de Games",
+        instituicao: "Universidade Anhembi Morumbi",
+        periodo: "2020 - 2023"
       }
+      
     ],
-    habilidades: ["React", "JavaScript", "TypeScript", "CSS", "Next.js", "Node.js", "C#"]
+    habilidades: [
+      { nome: "React", imagem: "/icons/react-icon.png" },
+      { nome: "JavaScript", imagem: "/icons/js-icon.png" },
+      { nome: "TypeScript", imagem: "/icons/ts-icon.png" },
+      { nome: "CSS", imagem: "/icons/css-icon.png" },
+      { nome: "Next.js", imagem: "/icons/nextjs-icon.png" },
+      { nome: "Node.js", imagem: "/icons/nodejs-icon.png" },
+      { nome: "C#", imagem: "/icons/csharp-icon.png" }
+    ]
   };
 
   return (
@@ -84,12 +93,15 @@ const App = () => {
           ))}
         </ul>
       </section>
-      
+
       <section className="habilidades">
         <h3>Habilidades</h3>
-        <ul>
+        <ul className="habilidades-list">
           {dados.habilidades.map((habilidade, index) => (
-            <li key={index}>{habilidade}</li>
+            <li key={index}>
+              <img src={habilidade.imagem} alt={habilidade.nome} className="tech-icon" />
+              <p>{habilidade.nome}</p>
+            </li>
           ))}
         </ul>
       </section>

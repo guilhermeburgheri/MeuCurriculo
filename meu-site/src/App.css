@@ -49,7 +49,7 @@ section {
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 8px;
-  background-color: #f3f3f3;
+  background-color: #f9f9f9;
 }
 
 section h3 {
@@ -67,4 +67,29 @@ section h4 {
 
 .contato li, .experiencia li, .educacao li, .habilidades li {
   padding: 5px 0;
+}
+
+/* Estilo específico para a seção de habilidades */
+.habilidades-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.habilidades-list li {
+  text-align: center;
+  width: 100px; /* Tamanho fixo para os itens */
+}
+
+.tech-icon {
+  width: 75px; /* Tamanho maior para as imagens */
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px; /* Espaço entre a imagem e o nome */
+}
+
+.habilidades-list p {
+  margin: 0;
+  font-size: 14px; /* Tamanho da fonte do nome */
 }
