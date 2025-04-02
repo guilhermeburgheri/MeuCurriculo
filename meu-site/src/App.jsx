@@ -5,7 +5,7 @@ const App = () => {
   const dados = {
     nome: "Guilherme Burgheri",
     cargo: "Desenvolvedor Full Stack",
-    descricao: "Sobre mim.",
+    descricao: "Sou um jovem apaixonado por programação e desenvolvimento. Sempre estudando para me aperfeiçoar e me tornar cada vez melhor, meu foco é em Back-end, mas também possuo conhecimento e projetos em Front-End. Sou uma pessoa muito tranquila, sem problemas para trabalhar em equipe, sou focado e de fácil adaptação. Qualquer curiosidade, oportunidade, dicas ou até mesmo um bate papo, fique a vontade para me mandar uma mensagem pelo celular ou e-mail.",
     foto: "/Teste.jpeg",
     contato: {
       email: "guilherme.burgheri@hotmail.com",
@@ -25,17 +25,17 @@ const App = () => {
       {
         curso: "Bacharelado em Ciência da Computação",
         instituicao: "ENIAC",
-        periodo: "2025 - 2028"
+        periodo: "Cursando 2025/2028"
       },
       {
         curso: "Pós-Graduação em Desenvolvimento Full Stack",
         instituicao: "FIAP / Faculdade de Informática e Administração Paulista",
-        periodo: "2024 - 2025"
+        periodo: "2024/2025"
       },
       {
         curso: "Bacharelado em Design de Games",
         instituicao: "Universidade Anhembi Morumbi",
-        periodo: "2020 - 2023"
+        periodo: "2020/2023"
       }
       
     ],
