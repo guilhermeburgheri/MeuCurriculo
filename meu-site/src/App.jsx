@@ -40,13 +40,13 @@ const App = () => {
       
     ],
     habilidades: [
-      { nome: "React", imagem: "/icons/react-icon.png" },
-      { nome: "JavaScript", imagem: "/icons/js-icon.png" },
-      { nome: "TypeScript", imagem: "/icons/ts-icon.png" },
-      { nome: "CSS", imagem: "/icons/css-icon.png" },
-      { nome: "Next.js", imagem: "/icons/nextjs-icon.png" },
-      { nome: "Node.js", imagem: "/icons/nodejs-icon.png" },
-      { nome: "C#", imagem: "/icons/csharp-icon.png" }
+      { nome: "React", imagem: "/icons/react-icon.png", link: "https://reactjs.org" },
+      { nome: "JavaScript", imagem: "/icons/js-icon.png", link: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" },
+      { nome: "TypeScript", imagem: "/icons/ts-icon.png", link: "https://www.typescriptlang.org" },
+      { nome: "CSS", imagem: "/icons/css-icon.png", link: "https://developer.mozilla.org/pt-BR/docs/Web/CSS" },
+      { nome: "Next.js", imagem: "/icons/nextjs-icon.png", link: "https://nextjs.org" },
+      { nome: "Node.js", imagem: "/icons/nodejs-icon.png", link: "https://nodejs.org" },
+      { nome: "C#", imagem: "/icons/csharp-icon.png", link: "https://learn.microsoft.com/pt-br/dotnet/csharp/" }
     ]
   };
 
@@ -99,8 +99,10 @@ const App = () => {
         <ul className="habilidades-list">
           {dados.habilidades.map((habilidade, index) => (
             <li key={index}>
-              <img src={habilidade.imagem} alt={habilidade.nome} className="tech-icon" />
-              <p>{habilidade.nome}</p>
+              <a href={habilidade.link} target="_blank" rel="noopener noreferrer">
+                <img src={habilidade.imagem} alt={habilidade.nome} className="tech-icon" />
+                <p>{habilidade.nome}</p>
+              </a>
             </li>
           ))}
         </ul>
