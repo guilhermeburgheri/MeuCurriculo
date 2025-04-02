@@ -7,6 +7,8 @@
 
 .App-header {
   text-align: center;
+  border-bottom: 3px solid #333;
+  padding-bottom: 20px;
 }
 
 .perfil-foto {
@@ -44,8 +46,25 @@ a:hover {
 
 section {
   margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f3f3f3;
 }
 
-h4 {
+section h3 {
+  margin-top: 0;
+  color: #444;
+}
+
+section h4 {
   font-weight: bold;
+}
+
+.contato, .experiencia, .educacao, .habilidades {
+  margin-top: 20px;
+}
+
+.contato li, .experiencia li, .educacao li, .habilidades li {
+  padding: 5px 0;
 }

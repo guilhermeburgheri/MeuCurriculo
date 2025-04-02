@@ -60,19 +60,6 @@ const App = () => {
         </ul>
       </section>
 
-      <section className="experiencia">
-        <h3>Experiência</h3>
-        <ul>
-          {dados.experiencia.map((item, index) => (
-            <li key={index}>
-              <h4>{item.cargo} - {item.empresa}</h4>
-              <p>{item.periodo}</p>
-              <p>{item.descricao}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
       <section className="educacao">
         <h3>Educação</h3>
         <ul>
@@ -85,6 +72,19 @@ const App = () => {
         </ul>
       </section>
 
+      <section className="experiencia">
+        <h3>Experiência</h3>
+        <ul>
+          {dados.experiencia.map((item, index) => (
+            <li key={index}>
+              <h4>{item.cargo} - {item.empresa}</h4>
+              <p>{item.periodo}</p>
+              <p>{item.descricao}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+      
       <section className="habilidades">
         <h3>Habilidades</h3>
         <ul>
