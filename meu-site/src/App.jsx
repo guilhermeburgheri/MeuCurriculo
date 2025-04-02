@@ -31,6 +31,11 @@ const App = () => {
         curso: "Pós-Graduação em Desenvolvimento Full Stack",
         instituicao: "FIAP / Faculdade de Informática e Administração Paulista",
         periodo: "2024 - 2025"
+      },
+      {
+        curso: "Bacharelado em Ciência da Computação",
+        instituicao: "ENIAC",
+        periodo: "2025 - 2028"
       }
     ],
     habilidades: ["React", "JavaScript", "TypeScript", "CSS", "Next.js", "Node.js", "C#"]
