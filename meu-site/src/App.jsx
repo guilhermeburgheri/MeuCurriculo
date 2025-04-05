@@ -5,8 +5,8 @@ const App = () => {
   const dados = {
     nome: "Guilherme Burgheri",
     cargo: "Desenvolvedor Full Stack",
-    descricao: "Sou um jovem apaixonado por programação e desenvolvimento. Sempre estudando para me aperfeiçoar e me tornar cada vez melhor, meu foco é em Back-end, mas também possuo conhecimento e projetos em Front-End. Sou uma pessoa muito tranquila, sem problemas para trabalhar em equipe, sou focado e de fácil adaptação. Qualquer curiosidade, oportunidade, dicas ou até mesmo um bate papo, fique a vontade para me mandar uma mensagem pelo celular ou e-mail.",
-    foto: "/Teste.jpeg",
+    descricao: "Sou um jovem apaixonado por programação e desenvolvimento. Sempre estudando para me aperfeiçoar e me tornar cada vez melhor, meu foco é em Back-end, mas também possuo conhecimento e projetos em Front-End. Sou uma pessoa muito tranquila, sem problemas para trabalhar em equipe, sou focado e de fácil adaptação. Qualquer curiosidade, oportunidade, dicas ou até mesmo um bate papo, estou aberto para uma conversa.",
+    foto: "/FotoPerfil.jpg",
     contato: {
       email: "guilherme.burgheri@hotmail.com",
       telefone: "(11) 99942-1659",
@@ -18,7 +18,7 @@ const App = () => {
         cargo: "Expert em interação",
         empresa: "Empresa Teleperformance",
         periodo: "Março 2024 - Presente",
-        descricao: "Atendimento ao cliente nos cenários de Pós-venda de softwares/programas/aplicativos."
+        descricao: "Atendimento ao cliente nos cenários de Pós-venda de softwares, programas e aplicativos."
       }
     ],
     educacao: [

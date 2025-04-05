@@ -69,7 +69,6 @@ section h4 {
   padding: 5px 0;
 }
 
-/* Estilo específico para a seção de habilidades */
 .habilidades-list {
   display: flex;
   flex-wrap: wrap;
@@ -79,17 +78,17 @@ section h4 {
 
 .habilidades-list li {
   text-align: center;
-  width: 100px; /* Tamanho fixo para os itens */
+  width: 100px;
 }
 
 .tech-icon {
-  width: 75px; /* Tamanho maior para as imagens */
+  width: 75px;
   height: 50px;
   object-fit: contain;
-  margin-bottom: 5px; /* Espaço entre a imagem e o nome */
+  margin-bottom: 5px;
 }
 
 .habilidades-list p {
   margin: 0;
-  font-size: 14px; /* Tamanho da fonte do nome */
+  font-size: 14px;
 }
