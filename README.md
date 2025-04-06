@@ -1,1 +1,1 @@
-## Praticando meus conhecimentos fazendo um simples site para ser também meu currículo
+## Um exercício pessoal desenvolvido em React, que vou usar como o meu currículo.
