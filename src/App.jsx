@@ -15,10 +15,16 @@ const App = () => {
     },
     experiencia: [
       {
+        cargo: "Analista de Pós Venda I",
+        empresa: "Empresa Teleperformance",
+        periodo: "Junho 2025 - Presente",
+        descricao: "Suporte para empresas nos cenários de Pós-venda de softwares, programas e aplicativos."
+      },
+      {
         cargo: "Expert em interação",
         empresa: "Empresa Teleperformance",
         periodo: "Março 2024 - Presente",
-        descricao: "Atendimento ao cliente nos cenários de Pós-venda de softwares, programas e aplicativos."
+        descricao: "Suporte técnico ao cliente nos cenários de Pós-venda de softwares, programas e aplicativos."
       }
     ],
     educacao: [
