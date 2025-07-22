@@ -17,14 +17,14 @@ const App = () => {
       {
         cargo: "Analista de Pós Venda I",
         empresa: "Empresa Teleperformance",
-        periodo: "Junho 2025 - Presente",
-        descricao: "Suporte para empresas nos cenários de Pós-venda de softwares, programas e aplicativos."
+        periodo: "Maio 2025 - Presente",
+        descricao: "Abertura de chamados para empresas nos cenários de Pós-venda, alinhamento do SLA para resolução do caso e preencher no sistema corretamente para os engenheiros/especialistas responsáveis seguirem com as tratativas."
       },
       {
         cargo: "Expert em interação",
         empresa: "Empresa Teleperformance",
-        periodo: "Março 2024 - Presente",
-        descricao: "Suporte técnico ao cliente nos cenários de Pós-venda de softwares, programas e aplicativos."
+        periodo: "Março 2024 - Maio 2025",
+        descricao: "Suporte técnico aos clientes nos cenários de Pós-venda, realização do acesso remoto para processos e comandos/scripts no CMD e realização de CBA para cenários mais complexos."
       }
     ],
     educacao: [
